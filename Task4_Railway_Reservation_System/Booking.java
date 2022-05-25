@@ -1,5 +1,7 @@
 package com.ZohoIncubation.Task4NewDesign;
 
+import java.util.List;
+
 public class Booking {
 
 
@@ -7,7 +9,10 @@ public class Booking {
         return true;
     }
 
-    public boolean book_tickets(){
+    public boolean initiateBooking(){
+        return true;
+    }
+    public boolean book_tickets(List<Passenger> passengerList){
         return true;
     }
 
